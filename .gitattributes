@@ -1,0 +1,26 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+
+## 参考文章  https://segmentfault.com/a/1190000013973362?utm_medium=referral&utm_source=tuicool
+
+
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+# *.c text
+# *.h text
+
+# Declare files that will always have CRLF line endings on checkout.
+
+*.js text eol=lf
+*.vue text eol=lf
+*.less text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
