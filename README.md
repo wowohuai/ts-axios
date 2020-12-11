@@ -18,3 +18,17 @@ yarn add -D husky lint-staged
 
 
 ## 发布流程优化
+
+## 版本
+```shell
+npm version patch 升级补丁 0.0.1 变成 0.0.2
+
+npm version minor 升级补丁 0.0.1 变成 0.1.0
+
+npm version major 升级补丁 0.0.1 变成 1.0.0
+
+#本地调试开发
+```
+
+
+## [配置参考教程](https://juejin.cn/post/6844904035309322254#heading-42)
