@@ -5,8 +5,6 @@ describe('validate:', () => {
    * myFirstFunc
    */
   it('add', () => {
-    test('return caculate value', () => {
-      expect(add(1, 2)).toBe(3);
-    });
+    expect(add(1, 2)).toBe(3);
   });
 });

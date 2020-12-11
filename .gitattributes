@@ -19,6 +19,7 @@
 *.less text eol=lf
 *.css text eol=lf
 *.md text eol=lf
+*.ts text eol=lf
 
 # Denote all files that are truly binary and should not be modified.
 *.png binary
