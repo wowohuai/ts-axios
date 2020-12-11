@@ -15,7 +15,7 @@ const paths = {
 };
 
 // rollup 配置项
-const rollupConfig: RollupOptions = {
+const rollupConfig: RollupOptions= {
   input: paths.input,
   output: [
     // 输出 commonjs 规范的代码
