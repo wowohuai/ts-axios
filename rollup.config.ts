@@ -6,6 +6,7 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import { eslint } from 'rollup-plugin-eslint';
 import { DEFAULT_EXTENSIONS } from '@babel/core';
+import alias from '@rollup/plugin-alias';
 
 import pkg from './package.json';
 
@@ -62,6 +63,11 @@ const rollupConfig: RollupOptions= {
       extensions: [
         ...DEFAULT_EXTENSIONS,
         '.ts'
+      ]
+    }),
+    alias({
+      entries: [
+        { find: '@', replacement: './src' }
       ]
     })
   ]
