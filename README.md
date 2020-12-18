@@ -21,3 +21,10 @@ axios.get('/simple/get')
 
 
 ```
+## 版本
+```shell
+npm version patch 升级补丁 0.0.1 变成 0.0.2
+
+npm version minor 升级补丁 0.0.1 变成 0.1.0
+
+npm version major 升级补丁 0.0.1 变成 1.0.0
