@@ -1,6 +1,6 @@
 {
   "name": "axios-ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "使用typescript实现简版的axios",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
